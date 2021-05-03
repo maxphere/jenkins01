@@ -5,6 +5,9 @@ pipeline {
             steps {
                 //sh 'npm --version'
                 echo "hello!"
+                sh "echo Hello from the shell"
+                sh "hostname"
+                sh "uptime"
             }
         }
     }
